@@ -108,7 +108,7 @@ This folder contains all the common components which are used throughout the pro
 Index.js simply does client side rendering using the data provided from `window.__INITIAL_STATE__`.
 
 #### modules
-Modules are the way of organising different domain-specific modules in the project. A typical module contains the following
+Modules are the way of organising different domain-specific modules in the project. A typical module contains the following:
 ```
 | - Post
   | - __tests__ // all the tests for this module goes here
