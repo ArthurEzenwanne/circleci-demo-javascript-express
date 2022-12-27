@@ -8,9 +8,9 @@ workflows:
       - test:
           requires:
             - build
-      - analyse:
-          requires:
-            - test
+      # - analyse:
+      #     requires:
+      #       - test
 
 jobs:
   build:
